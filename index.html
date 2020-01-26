@@ -46,13 +46,13 @@
 	</div>
 	<form class="card inline-block">
 		<h3>Example form</h3>
-		<label for="username" class="error">Username</label>
-		<input placeholder="…" class="error" />
-		<small class="error">Error message</small>
-		</br>
-		<label for="password">Password</label>
-		<input type="password" placeholder="…"/>
-		</br>
+		<fieldset>
+			<label class="error">Username
+			<input placeholder="…" class="error" /></label>
+			<small class="error">Error message</small>
+			<label >Password
+			<input placeholder="…"/></label>
+		</fieldset>
 		<button class="danger">Cancel</button>
 		<button disabled>Disabled</button>
 		<input class="pull-right secondary" type="submit"/>
@@ -68,25 +68,23 @@
 	</div>
 	<form class="card">
 		<h3>Input types</h3>
-		<ol>
 			<fieldset>
-				<li><label>Checkbox</label><input type="checkbox" /></li>
-				<li><label>Color</label><input type="color" /></li>
-				<li><label>Date</label><input type="date" /></li>
-				<li><label>Email</label><input type="email" /></li>
-				<li><label>File</label><input type="file" /></li>
-				<li><label>Image<label><input type="image" /></li>
-				<li><label>Month</label><input type="month" /></li>
-				<li><label>Number</label><input type="number" /></li>
-				<li><label>Radio</label><input type="radio" /></li>
-				<li><label>Range</label><input type="range" /></li>
-				<li><label>Submit</label><input type="submit" /></li>
-				<li><label>Text</label><input type="text" /></li>
-				<li><label>Time</label><input type="time" /></li>
-				<li><label>Url</label><input type="url" /></li>
-				<li><label>Week</label><input type="week" /></li>
+				<label>Checkbox<input type="checkbox" /></label>
+				<label>Color<input type="color" /></label>
+				<label>Date<input type="date" /></label>
+				<label>Email<input type="email" /></label>
+				<label>File<input type="file" /></label>
+				<label>Image<input type="image" /></label>
+				<label>Month<input type="month" /></label>
+				<label>Number<input type="number" /></label>
+				<label>Radio<input type="radio" /></label>
+				<label>Range<input type="range" /></label>
+				<label>Submit<input type="submit" /></label>
+				<label>Text<input type="text" /></label>
+				<label>Time<input type="time" /></label>
+				<label>Url<input type="url" /></label>
+				<label>Week<input type="week" /></label>
 			</fieldset>
-		</ol>
 	</form>
 	<div class="card">
 		<h3>Images and figures</h3>
