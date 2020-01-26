@@ -93,6 +93,16 @@ a:focus {
 	box-shadow: none;
 }
 
+code {
+	background-color: #333;
+	color: white;
+	padding: 4px 8px;
+}
+
+li {
+	line-height: 1.5rem;
+}
+
 table {
 	width: 100%;
 	border-spacing: 0;
@@ -108,7 +118,7 @@ td, th {
 }
 
 tr:nth-child(even) {
-	background-color: #cce0e5;
+	background-color: #dfefff;
 }
 
 *::-moz-focus-inner {
@@ -128,6 +138,7 @@ fieldset {
 form label {
 	overflow: auto;
 	display: block;
+	letter-spacing: 1px;
 }
 
 .error, .danger {
